@@ -35,7 +35,7 @@ func isRoman(s string) bool {
 
 func main() {
 	var input string
-	fmt.Println("Введите выражение (например, 1 + 2 или VI / III):")
+	fmt.Println("Введите выражение (например, 1+2 или VI/III):")
 	fmt.Scanln(&input)
 
 	input = strings.ReplaceAll(input, " ", "")
