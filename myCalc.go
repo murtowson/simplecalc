@@ -34,7 +34,7 @@ func main() {
 		input = strings.TrimSpace(input)
 		input = strings.ToUpper(input)
 
-		if input == "" {
+		if input == "E" {
 			fmt.Println("Программа завершена.")
 			break
 		}
